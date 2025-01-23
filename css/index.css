@@ -1,89 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dancing+Script:wght@400..700&family=Fira+Code:wght@300..700&family=Indie+Flower&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
-/* More updated root designs */
+/* Organized root designs */
+/* Updated Jan 24 10PM */
 :root {
+  /* Color Palette */
+  /* Dark Shades */
   --dark-02: #3e3e44;
-	--dark-03: #252526;
-	--dark-04: #7E7E7E;
-	--dark-05: #000;	
-	--dark-06: #434343;
-	--dark-07: #646262;
+  --dark-03: #252526;
+  --dark-04: #7E7E7E;
+  --dark-05: #000;
+  --dark-06: #434343;
+  --dark-07: #646262;
+  
+  /* Background and Foreground - Dark Themes */
   --bg-dark-1: #1e1e1e;
   --fg-dark-1: #d4d4d4;
   --selection-dark-1: #264f78;
   --cursor-dark-1: #aeafad;
+
   --bg-dark-2: #272822;
   --fg-dark-2: #f8f8f2;
   --selection-dark-2: #49483e;
   --cursor-dark-2: #f8f8f0;
+
   --bg-dark-3: #282a36;
-  --bg-dark-6: #1E1E1E;
   --fg-dark-3: #f8f8f2;
   --selection-dark-3: #44475a;
   --cursor-dark-3: #f8f8f0;
+
   --bg-dark-4: #282c34;
   --fg-dark-4: #abb2bf;
   --selection-dark-4: #3e4451;
   --cursor-dark-4: #528bff;
+
+  --bg-dark-6: #1E1E1E;
+
+  /* Background and Foreground - Light Themes */
   --bg-light-1: #ffffff;
   --fg-light-1: #333333;
   --selection-light-1: #B3D4FC;
   --cursor-light-1: #000000;
+
   --bg-light-2: #fdf6e3;
   --fg-light-2: #657b83;
   --selection-light-2: #93a1a1;
   --cursor-light-2: #586e75;
+
   --bg-light-3: #fafafa;
   --fg-light-3: #2c3e50;
   --selection-light-3: #bdc3c7;
   --cursor-light-3: #2c3e50;
+
   --bg-light-4: #fafafa;
   --fg-light-4: #5c6370;
   --selection-light-4: #cce7ff;
   --cursor-light-4: #528bff;
+
+  /* Other Colors */
   --dark-maroon: #800000;
-  /* Sans-Serif Fonts */
-  --font-sans-1: 'Inter', sans-serif;
-  --font-sans-2: 'Roboto', sans-serif;
-  --font-sans-3: 'Helvetica Neue', sans-serif;
-  --font-sans-4: 'Open Sans', sans-serif;
-  --font-sans-5: 'Montserrat', sans-serif;
-  --font-sans-6: 'Poppins', sans-serif;
-  --font-sans-7: 'Nunito', sans-serif;
-  --font-sans-8: 'Lato', sans-serif;
-  --font-sans-9: 'Ubuntu', sans-serif;
-  --font-sans-10: 'Source Sans Pro', sans-serif;
-  /* Serif Fonts */
-  --font-serif-1: 'Playfair Display', serif;
-  --font-serif-2: 'Merriweather', serif;
-  --font-serif-3: 'Georgia', serif;
-  --font-serif-4: 'Lora', serif;
-  --font-serif-5: 'Crimson Text', serif;
-  /* Monospace Fonts */
-  --font-mono-1: 'Fira Code';
-  --font-mono-2: 'Courier New';
-  --font-mono-3: 'Roboto Mono';
-  --font-mono-4: 'JetBrains Mono';
-  --font-mono-5: 'Source Code Pro';
-  /* Display Fonts (for Headings or Highlights) */
-  --font-display-1: 'Oswald', sans-serif;
-  --font-display-2: 'Bebas Neue', sans-serif;
-  --font-display-3: 'Raleway', sans-serif;
-  --font-display-4: 'Anton', sans-serif;
-  --font-display-5: 'Barlow', sans-serif;
-  /* Handwritten Fonts (for unique elements) */
-  --font-handwritten-1: 'Pacifico', cursive;
-  --font-handwritten-2: 'Dancing Script', cursive;
-  --font-handwritten-3: 'Indie Flower', cursive;
-  --font-handwritten-4: 'Kaushan Script', cursive;
-  --font-handwritten-5: 'Amatic SC', cursive;
-  --font-handwritten-6: 'Alice';
   --wheat-light: #F5DEB3;
   --wheat: #F0E68C;
   --wheat-golden: #E1C16E;
   --wheat-medium: #D2B86A;
   --wheat-dark: #C1A15C;
   --wheat-very-dark: #8B6F3B;
+
+  /* Success Colors */
   --success-green: #28a745;
   --success-light-green: #4CAF50;
   --success-turquoise: #1abc9c;
@@ -92,6 +74,8 @@
   --success-mint: #98ff98;
   --success-forest-green: #228B22;
   --success-olive-green: #6b8e23;
+
+  /* Blue and Cyan Shades */
   --cyan-light: #00bcd4;
   --cyan: #00a2a1;
   --cyan-dark: #008b8b;
@@ -113,6 +97,127 @@
   --aqua-marine: #7fffd4;
   --blue-gray: #6699cc;
   --caribbean-blue: #00b5e2;
+
+  /* Font Families */
+  /* Sans-Serif Fonts */
+  --font-sans-1: 'Inter', sans-serif;
+  --font-sans-2: 'Roboto', sans-serif;
+  --font-sans-3: 'Helvetica Neue', sans-serif;
+  --font-sans-4: 'Open Sans', sans-serif;
+  --font-sans-5: 'Montserrat', sans-serif;
+  --font-sans-6: 'Poppins', sans-serif;
+  --font-sans-7: 'Nunito', sans-serif;
+  --font-sans-8: 'Lato', sans-serif;
+  --font-sans-9: 'Ubuntu', sans-serif;
+  --font-sans-10: 'Source Sans Pro', sans-serif;
+  --font-sans-11: 'Merriweather Sans', serif;
+
+  /* Serif Fonts */
+  --font-serif-1: 'Playfair Display', serif;
+  --font-serif-2: 'Merriweather', serif;
+  --font-serif-3: 'Georgia', serif;
+  --font-serif-4: 'Lora', serif;
+  --font-serif-5: 'Crimson Text', serif;
+
+  /* Monospace Fonts */
+  --font-mono-1: 'Fira Code';
+  --font-mono-2: 'Courier New';
+  --font-mono-3: 'Roboto Mono';
+  --font-mono-4: 'JetBrains Mono';
+  --font-mono-5: 'Source Code Pro';
+
+  /* Display Fonts */
+  --font-display-1: 'Oswald', sans-serif;
+  --font-display-2: 'Bebas Neue', sans-serif;
+  --font-display-3: 'Raleway', sans-serif;
+  --font-display-4: 'Anton', sans-serif;
+  --font-display-5: 'Barlow', sans-serif;
+
+  /* Handwritten Fonts */
+  --font-handwritten-1: 'Pacifico', cursive;
+  --font-handwritten-2: 'Dancing Script', cursive;
+  --font-handwritten-3: 'Indie Flower', cursive;
+  --font-handwritten-4: 'Kaushan Script', cursive;
+  --font-handwritten-5: 'Amatic SC', cursive;
+  --font-handwritten-6: 'Alice';
+
+  /* Dark mode base colors */
+  --dark-black: #000000;
+  --dark-gray: #1e1e1e;
+  --dark-blue: #003366;
+  --dark-green: #003300;
+  --dark-teal: #004d4d;
+  --dark-ocean-blue: #002b36;
+  --dark-seaweed: #004242;
+
+  /* Highlight and selection colors */
+  --highlight-blue: #1e90ff;
+  --highlight-green: #00ff7f;
+  --highlight-ocean: #00ced1;
+  --highlight-black: #1f1f1f;
+
+  /* Text colors */
+  --text-primary: #dcdcdc;
+  --text-secondary: #a9b7c6;
+  --text-accent-blue: #61afef;
+  --text-accent-green: #98c379;
+  --text-accent-teal: #56b6c2;
+
+  /* Background gradients */
+  --bg-gradient-blue: linear-gradient(180deg, #003366, #1e1e1e);
+  --bg-gradient-green: linear-gradient(180deg, #004d4d, #1e1e1e);
+  --bg-gradient-ocean: linear-gradient(180deg, #004242, #1e1e1e);
+  --bg-gradient-black: linear-gradient(180deg, #000000, #1e1e1e);
+
+  /* Border and shadow colors */
+  --border-dark: #3e3e44;
+  --shadow-blue: rgba(30, 144, 255, 0.5);
+  --shadow-green: rgba(0, 255, 127, 0.5);
+  --shadow-teal: rgba(0, 206, 209, 0.5);
+
+  /* Interactive elements */
+  --button-blue: #007acc;
+  --button-hover-blue: #005f9e;
+  --button-green: #2d8640;
+  --button-hover-green: #1f5c2d;
+  --button-teal: #267373;
+  --button-hover-teal: #1b5252;
+
+  /* Accent colors */
+  --accent-ocean-light: #46b8d8;
+  --accent-ocean-dark: #1e6f85;
+  --accent-blue-light: #4fc3f7;
+  --accent-blue-dark: #007bb5;
+  --accent-green-light: #7ed957;
+  --accent-green-dark: #286732;
+
+  /* Current Pallete */
+  --pallete-1-1: #96C2DB;
+  --pallete-1-2: #E5EDF1; 
+  --pallete-1-3: #FFFFF;
+
+  /* Pallete 2 */
+  --pallete-2-1: #002349; 
+  --pallete-2-2: #957C3D;
+
+  /* Pallete 3 */
+  --pallete-3-1: #EFFAFD; 
+  --pallete-3-2: #4A8BDF; 
+  --pallete-3-3: #A0006D;
+
+  /* Pallete 4 */
+  --pallete-4-1:  #FFAB00; 
+  --pallete-4-2: #DD2E18;
+
+  /* Pallete 5 */
+  --pallete-5-1: #8E0D3C; 
+  --pallete-5-2: #1D1842;
+  --pallete-5-3: #EF3B33; 
+  --pallete-5-4: #FDA1A2;
+
+  /* Pallete 6 */
+  --pallete-6-1: #EAE7DD; 
+  --pallete-6-2: #99775C;
 }
 
 * {
@@ -123,18 +228,24 @@
 body {
   display: flex;
   flex-direction: column;
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
+/* HEADER */
 #header {
-  width: 100vw;
+  width: 100%; /* Adjust to parent width */
   height: 100px;
   border-bottom: 1px solid var(--dark-02);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
+  position: fixed;
+  top: 0;
+  background: transparent;
+  left: 0;
+  z-index: 1000;
 }
 
 #header #navigation {
@@ -149,15 +260,18 @@ body {
   align-items: center;
 }
 
+.nav-page-bar {
+  position: relative;
+}
+
 #nav-pages .nav-page-bar a {
   text-decoration: none;
   display: block;
   padding: 5px 10px;
   margin: 10px 5px;
-  /* border: 1px solid red; */
   border-radius: 8px;
   font-size: 0.95em;
-  color: var(--bg-dark-1);
+  color: var(--bg-light-3);
   transition: background-color 0.1s ease-in-out;
 }
 
@@ -165,3 +279,80 @@ body {
   background-color: var(--cursor-dark-1);
   color: var(--dark-03) !important;
 }
+
+.nav-page-bar::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  background-color: var(--pallete-2-2);
+  transform-origin: left;
+  opacity: 0;
+  transition: 0.3s ease-in;
+}
+
+.nav-page-bar:hover::after {
+  opacity: 1;
+}
+
+/* Main Content */
+#main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  height: auto;
+  /* margin-top: 100px; Adjust for fixed header */
+}
+#main-content #main-content-img-bg-intro {
+  width: 100%; 
+  height: auto;
+  margin: 0 auto;
+  position: absolute;
+}
+#main-content-img-bg-intro img {
+  width: 100%; 
+  height: auto;
+  object-fit: cover;
+  backdrop-filter: blur(10px);
+  z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+  THE PLAN FOR THE STRUCTURE OF THE PORTFOLIO WBE CONTENTS
+
+  Header: 
+    1. Logo
+    2. Navigations 
+      - About
+      - Work
+      - Skills
+      - Blog
+      - Email Me / Call Me
+  Main Content:
+    1. First content introduction:
+      - "Jayrald Deniega Website Development"
+      - Tagline: "" 
+  About Me:
+    "Hi, I am Jayrald Deniega,..."
+  Work:
+    - Projects...
+  Skills:
+    - (set some dummy skills for me)
+    - Accessibility, Web Design, Hosting, Data Protection, Search Engine Optimization.
+  Blogs:
+    -   ...
+  Work with me
+
+*/
