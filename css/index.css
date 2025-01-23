@@ -235,7 +235,7 @@ body {
 /* HEADER */
 #header {
   width: 100%; /* Adjust to parent width */
-  height: 100px;
+  height: 90px;
   border-bottom: 1px solid var(--dark-02);
   box-sizing: border-box;
   display: flex;
@@ -320,7 +320,26 @@ body {
 
 
 
-
+/* MICRO CLASSES FOR MULTIPLE COMPONENTS */
+.content-scrollbar-overflow::-webkit-scrollbar-track {
+	background-color: transparent; 
+}
+.content-scrollbar-overflow::-webkit-scrollbar {
+	width: 8px; 
+	height: 8px; 
+	background-color: transparent; 
+}
+.content-scrollbar-overflow::-webkit-scrollbar-thumb {
+	background-color: var(--dark-04); 
+	border-radius: 8px; 
+}
+.content-scrollbar-overflow::-webkit-scrollbar-button {
+	background-color: var(--dark-04);
+	border-radius: 50%; 
+}
+.content-scrollbar-overflow::-webkit-scrollbar-button {
+	display: none; 
+}
 
 
 
